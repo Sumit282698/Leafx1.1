@@ -1,0 +1,33 @@
+sumitsingh in Going Merry !: Hello
+sumitsingh in Going Merry !: Lmao
+sumitsingh in Going Merry !: !ping
+sumitsingh in Going Merry !: !ping
+cogs = ("cmds.Commands")
+    if __name__ == '__main__':
+        for ext in cogs:
+            bot.load_extension(ext)
+
+-------------------------------------------------
+CLASSS 
+
+import discord, os
+from discord.ext import commands
+#class
+class admin(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+#admin command are here
+    
+
+
+
+
+async def setup(bot):
+    await bot.add_cog(admin(bot))
+------------------------------------------------------------------    
+
+
+◪ LEAF PING: 4ms
+◪ EXECUTION TIME: 211ms
+◪ NODE VERSION: 06-09-2024-6c7eada
+◪ SHARD ID: 0
